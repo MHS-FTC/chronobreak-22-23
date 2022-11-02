@@ -21,5 +21,6 @@ android {
 
 dependencies {
     implementation project(':FtcRobotController')
+    implementation project(':cfcl')
     annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
 }
